@@ -1,0 +1,14 @@
+# Rust build artifacts
+/target/
+
+# Rustfmt backup
+**/*.rs.bk
+
+# Cargo.lock は基本コミットする（下の注意参照）
+# /Cargo.lock
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
